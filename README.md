@@ -46,4 +46,4 @@ nohup php artisan queue:work --daemon --queue=submission > /dev/null 2>&1 &
 ```
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License]([LICENSE](https://opensource.org/license/MIT)).
