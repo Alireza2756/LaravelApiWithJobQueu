@@ -6,7 +6,7 @@ This is a simple Laravel API for handling form submissions.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/laravel-submissions-api.git
+   git clone https://github.com/Alireza2756/laravel-submissions-api.git
 2. Install dependencies:
     ```bash
     composer install 
