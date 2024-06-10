@@ -20,7 +20,7 @@ class SubmissionController extends Controller
             return response()->json(['errors' => $validator->errors()], 400);
         }
 
-        ProcessSubmission::dispatch($request->only('name', 'email', 'message'));
+        ProcessSubmission::dispatch($request->only('name', 'email', 'message'))->onQueue('submission');;
 
         return response()->json(['message' => 'Submission received and is being processed'], 200);
     }
