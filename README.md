@@ -1,6 +1,6 @@
 # Laravel Submissions API
 
-This is a simple Laravel API for handling form submissions.
+This is a simple Laravel API for handling form submissions With Laravel's job queues.
 
 ## Setup Instructions
 
